@@ -22,7 +22,7 @@ gem 'sass-rails', '~> 5.0'
 # Devise views
 gem 'devise-bootstrap-views'
 # CSS styling
-gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails', :git => 'http://github.com/seyhunak/twitter-bootstrap-rails.git'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes

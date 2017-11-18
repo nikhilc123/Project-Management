@@ -1,0 +1,62 @@
+//.user-name {
+//  padding: 0 !important;
+//  padding-left: 5px;
+//  padding-top: 15px !important;
+//  text-align: center;
+//
+//  a {
+//    color: #fff !important;
+//    margin: 0 !important;
+//    padding: 5px !important;
+//  }
+//  a:hover, a:focus {
+//    color: #000 !important;
+//  }
+//
+//  .nav.navbar-nav{
+//    .navbar-link {
+//      border-radius: 5px;
+//      color: #fff;
+//      margin-top: 15px;
+//      padding: 8px;
+//    }
+//    .navbar-link:focus, .navbar-link:hover{
+//      background: #3071a9;
+//      color: #fff;
+//    }
+//    li a {
+//      margin-right: 5px;
+//    }
+//  }
+//
+//  .nav.navbar-right li {
+//    .btn {
+//      color: #fff !important;
+//      margin-top: 5%;
+//    }
+//    .btn-danger:hover, .btn-danger:focus {
+//      background-color:darken(#d9534f, 20%) !important;
+//    }
+//    .btn-primary:hover, .btn-primary:focus {
+//      background-color:darken(#428bca, 20%) !important;
+//    }
+//  }
+//  .btn-primary:visited, .btn-danger:visited {
+//    color: #fff;
+//  }
+//}
+
+body {
+  //Gradient from http://uigradients.com/
+  background: -webkit-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #403B4A 10%, #E7E9BB 90%); /* W3C */
+}
+
+.alert-notice {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
